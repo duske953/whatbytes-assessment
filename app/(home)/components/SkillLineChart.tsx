@@ -28,7 +28,7 @@ const rightData = [
   { percentile: 60, numberOfStudents: 7 },
   { percentile: 70, numberOfStudents: 5 },
   { percentile: 75, numberOfStudents: 3 },
-  { percentile: 90, numberOfStudents: 2 },
+  { percentile: 90, numberOfStudents: 4 },
   { percentile: 100, numberOfStudents: 1 },
 ];
 const CustomTooltip = ({ active, payload }: { active: any; payload: any }) => {
