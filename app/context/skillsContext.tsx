@@ -14,7 +14,7 @@ export default function SkillsProvider({ children }: any) {
   const [skills, setSkills] = useState<skillsTypes>({
     rank: 1,
     percentile: 30,
-    score: 12,
+    score: 10,
   });
 
   return (
