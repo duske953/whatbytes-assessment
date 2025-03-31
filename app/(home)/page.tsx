@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import SideBarProvider from '../context/sideBarContext';
 import SkillsProvider from '../context/skillsContext';
 import NavBar from './components/NavBar';
@@ -7,6 +8,12 @@ import SkillLineChart from './components/SkillLineChart';
 
 import SkillPieChart from './components/SkillPieChart';
 import SyllabusProgressSection from './components/SyllablusProgress';
+
+export const metadata: Metadata = {
+  title: 'Technical Assessment - Frontend Developer Internship | WhatBytes',
+  description:
+    'Participating in the technical assessment for the Frontend Developer internship role at WhatBytes. Showcasing skills in web development and problem-solving.',
+};
 
 export default function Page() {
   return (
