@@ -3,8 +3,9 @@ import { sideBarContext } from '@/app/context/sideBarContext';
 import { cn } from '@/app/lib/utils';
 import Link from 'next/link';
 import { ReactNode, useContext } from 'react';
-import { FaAward, FaChartBar, FaFile } from 'react-icons/fa6';
+import { FaAward, FaFile } from 'react-icons/fa6';
 import Overlay from './Overlay';
+import { BiBarChart } from 'react-icons/bi';
 
 export default function SideBar() {
   const { openSideBar, setOpenSideBar } = useContext(sideBarContext);
@@ -20,7 +21,7 @@ export default function SideBar() {
       >
         <ul className="flex flex-col gap-6 py-12">
           <SideBarLinks text="Dashboard">
-            <FaChartBar />
+            <BiBarChart />
           </SideBarLinks>
           <SideBarLinks text="Skill Test" className="text-blue-700 bg-gray-100">
             <FaAward />
