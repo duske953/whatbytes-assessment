@@ -21,7 +21,7 @@ export function SkillTest() {
         <div>
           <p className="font-bold max-md:mb-2">Hyper Text Markup Language</p>
           <div className="flex gap-1 max-sm:flex-col max-sm:gap-3">
-            <p className="border-r- border-gray-300 pr-2 text-sm max-md:border-r-0">
+            <p className="border-r-2 border-gray-300 pr-2 text-sm max-md:border-r-0">
               Questions: 08
             </p>
             <p className="border-r-2 border-gray-300 text-sm pr-2 max-md:border-r-0">
